@@ -1,16 +1,34 @@
 body{
-  margin:0;  
+  margin:0; 
+  background: smokewhite; 
 }
+
 .elementos{
-    display: inline-block;
     width: 100%;
     height: 70px;
-    border: 0;
-    margin: 0;
+    padding: -20px;
+    border: 0px;
+    margin: 0px;
     background: red;
     font-family: arial;
     color: white;
+    text-align: center;
 }
+
 a{
 	color: white;
+}
+.imagenes{
+    display: inline-block;
+    padding: 40px 50px;
+}
+.element{
+    display: inline-block;
+    color: black;
+    background: red;
+    text-align: center;
+    padding: 10;
+}
+p{
+    display: block;
 }
