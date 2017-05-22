@@ -29,7 +29,7 @@ body{
     padding-top: 45px;
     padding-left: 250px;
     margin: auto;
-
+    
 }
 #uno, #dos, #tres, #cuatro{
     padding:20;
@@ -58,11 +58,13 @@ body{
     background-color: #bd1c1c;
     margin: 0px 1px;
     padding: 4px 90px;
+    text-decoration:none;
 }
 a{
     color: white;
     padding: 0px;
     font-family: 'Quicksand', sans-serif;
+    text-decoration:none;
 }
 
 .parrafosElementos{
@@ -97,6 +99,8 @@ a{
     font-family: 'Quicksand', sans-serif;
 }
 .extra{
+    box-sizing: border-box;
+    padding-left: 90%;
     backface-visibility: url(../img/bamboo.png);
     width: 10px;
 }
